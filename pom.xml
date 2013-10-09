@@ -1,0 +1,248 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>ecFeed</groupId>
+  <artifactId>ecFeed</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
+  <name>ecfeed</name>
+ 	<scm>
+		<connection>scm:git:https://github.com/testify-no/https://github.com/testify-no/ecFeed.git</connection>
+		<developerConnection>scm:git:git@github.com:testify-no/ecFeed.git</developerConnection>
+		<url>https://github.com/testify-no/ecFeed</url>
+		<tag>1.0.0</tag>
+	</scm>
+
+
+	<dependencies>
+
+		<dependency>
+			<groupId>org.databene</groupId>
+			<artifactId>databene-commons</artifactId>
+			<version>0.5.16</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.databene</groupId>
+			<artifactId>databene-webdecs</artifactId>
+			<version>0.6.10</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.databene</groupId>
+			<artifactId>contiperf</artifactId>
+			<version>2.2.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.databene</groupId>
+			<artifactId>databene-benerator</artifactId>
+			<version>0.7.7</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.databene</groupId>
+			<artifactId>databene-script</artifactId>
+			<version>0.7.7</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.databene</groupId>
+			<artifactId>jdbacl</artifactId>
+			<version>0.8.3</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-log4j12</artifactId>
+			<version>1.7.5</version>
+		</dependency>
+		<dependency>
+			<groupId>javax.validation</groupId>
+			<artifactId>validation-api</artifactId>
+			<version>1.1.0.Final</version>
+		</dependency>
+
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.11</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.antlr</groupId>
+			<artifactId>antlr</artifactId>
+			<version>3.5</version>
+		</dependency>
+		<dependency>
+			<groupId>hsqldb</groupId>
+			<artifactId>hsqldb</artifactId>
+			<version>1.8.0.7</version>
+		</dependency>
+
+		<dependency>
+			<groupId>xom</groupId>
+			<artifactId>xom</artifactId>
+			<version>1.2.5</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.google.guava</groupId>
+			<artifactId>guava</artifactId>
+			<version>14.0.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.eclipse.core</groupId>
+			<artifactId>commands</artifactId>
+			<version>3.3.0-I20070605-0010</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.eclipse.core</groupId>
+			<artifactId>org.eclipse.core.contenttype</artifactId>
+			<version>3.4.100.v20100505-1235</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.eclipse.core</groupId>
+			<artifactId>filebuffers</artifactId>
+			<version>3.3.0-v20070606-0010</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.eclipse.core</groupId>
+			<artifactId>org.eclipse.core.jobs</artifactId>
+			<version>3.5.0.v20100515</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.eclipse.core</groupId>
+			<artifactId>org.eclipse.core.resources</artifactId>
+			<version>3.6.0.v20100526-0737</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.eclipse.core</groupId>
+			<artifactId>org.eclipse.core.runtime</artifactId>
+			<version>3.6.0.v20100505</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.eclipse.equinox</groupId>
+			<artifactId>org.eclipse.equinox.app</artifactId>
+			<version>1.3.0.v20100512</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.eclipse.equinox</groupId>
+			<artifactId>org.eclipse.equinox.common</artifactId>
+			<version>3.6.0.v20100503</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.eclipse.equinox</groupId>
+			<artifactId>org.eclipse.equinox.preferences</artifactId>
+			<version>3.3.0.v20100503</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.eclipse.equinox</groupId>
+			<artifactId>org.eclipse.equinox.registry</artifactId>
+			<version>3.5.0.v20100503</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.eclipse.jdt.compiler</groupId>
+			<artifactId>tool</artifactId>
+			<version>1.0.0-v_771</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.eclipse.tycho</groupId>
+			<artifactId>org.eclipse.jdt.compiler.apt</artifactId>
+			<version>1.0.600.v20130530-1010</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.eclipse.tycho</groupId>
+			<artifactId>org.eclipse.jdt.core</artifactId>
+			<version>3.9.0.v20130604-1421</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.databene</groupId>
+			<artifactId>feed4junit</artifactId>
+			<version>1.1.5</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.hamcrest</groupId>
+			<artifactId>hamcrest-core</artifactId>
+			<version>1.3</version>
+		</dependency>
+		<dependency>
+			<groupId>org.jibx.config.3rdparty.org.eclipse</groupId>
+			<artifactId>org.eclipse.text</artifactId>
+			<version>3.5.100.v20110505-0800</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.eclipse.core.runtime.compatibility</groupId>
+			<artifactId>registry</artifactId>
+			<version>3.2.100-v20070316</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.eclipse.osgi</groupId>
+			<artifactId>org.eclipse.osgi</artifactId>
+			<version>3.6.0.v20100517</version>
+		</dependency>
+
+
+	</dependencies>
+
+	<build>
+		<!-- <sourceDirectory>src/main/java</sourceDirectory> -->
+		<plugins>
+			<plugin>
+				<artifactId>maven-release-plugin</artifactId>
+				<version>2.4.1</version>
+				<configuration>
+					<useReleaseProfile>false</useReleaseProfile>
+					<releaseProfiles>release</releaseProfiles>
+					<autoVersionSubmodules>true</autoVersionSubmodules>
+
+				</configuration>
+			</plugin>
+
+			<plugin>
+				<artifactId>maven-clean-plugin</artifactId>
+				<version>2.5</version>
+				<configuration>
+					<filesets>
+						<fileset>
+							<directory>some/relative/path</directory>
+							<includes>
+								<include>**/*.tmp</include>
+								<include>**/*.log</include>
+							</includes>
+							<excludes>
+								<exclude>**/important.log</exclude>
+								<exclude>**/another-important.log</exclude>
+							</excludes>
+							<followSymlinks>false</followSymlinks>
+						</fileset>
+					</filesets>
+				</configuration>
+			</plugin>
+
+		</plugins>
+	</build>
+
+	<distributionManagement>
+		<repository>
+			<id>maven-tests-repository</id>
+			<url>https://github.com/testify-no/ecfeed-maven/master/releases</url>
+		</repository>
+	</distributionManagement>
+	<packaging>jar</packaging>
+</project>
